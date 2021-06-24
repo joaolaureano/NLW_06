@@ -48,7 +48,7 @@ export function AuthContextProvider(props: AuthContextProviderProps) {
 
         const provider = new firebase.auth.GoogleAuthProvider();
 
-        const result = await auth.signInWithPopup(provider).then(
+        await auth.signInWithPopup(provider).then(
             result => {
                 if (result.user) {
                     const { displayName, photoURL, uid } = result.user;

@@ -3,7 +3,5 @@ import { useContext } from 'react';
 
 export function useAuth() {
 
-    const value = useContext(AuthContext);
-
-    return value;
+    return useContext(AuthContext);
 }
