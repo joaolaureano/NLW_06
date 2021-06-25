@@ -21,7 +21,6 @@ export function NewRoom() {
 
     async function handleCreateNewRoom(event: FormEvent) {
         event.preventDefault();
-        console.log(newRoom);
 
         if (newRoom.trim() === '') return;
 
