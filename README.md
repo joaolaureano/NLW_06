@@ -11,3 +11,4 @@ Trata-se de uma aplicação onde um usuário administrador pode criar salas de p
 * Yarn
 * Firebase CLI
 * Firebase Realtime Database
+* SCSS
