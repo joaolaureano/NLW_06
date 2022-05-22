@@ -39,6 +39,10 @@ O app estará disponível no seu browser pelo endereço http://localhost:3000.
 Lembrando que será necessário criar uma conta no [Firebase](https://firebase.google.com/) e um projeto para disponibilizar um Realtime Database.
 
 Para integrar o Firebase à essa aplicação, atualize os valores do arquivo *.env_example* com as informaçẽos do teu projeto Firebase, e mude o nome do arquivo para *.env*.
+## Deploy
+O deploy da aplicação foi feita no Firebase Hosting.
+
+Veja a aplicação [aqui](https://letmeask-56af7.web.app)
 ## Pontos de melhorias
  - Quando o usuário entra em uma sala, tenta enviar uma pergunta e NÃO está logado, dá erro na aplicação
  - Quando tenta entrar em uma sala inexistente, é soltado um alert()
